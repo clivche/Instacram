@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Insta&copyram</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css"/>
+</head>
+<body id='body'>
+    <header class='banner'>
+        <h1 class='instacram'>Insta&copyram</h1>
+    </header>
+    <main role='main' class='wrapper'>
+        <button class='loginButton' id="login">Login</button>
+        <div class="buttonDivider"></div>
+        <button class='signUpButton' id="signUp">Sign Up</button>
+    </main>
+    <footer id='footer'>
+        <p>Insta&copyram</p>
+    </footer>
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span id="loginCloseButton" class="closeButton">&times;</span>
+                <h2 id  ="loginHeader">Login</h2>
+            </div>
+            <div class="modal-body">
+                <label for="user"><b>Username</b></label>
+                <input id="loginUsernameInput" type="text" placeholder="Enter Username" name="user" required>
+                <label for="pass"><b>Password</b></label>
+                <input id="loginPasswordInput" type="password" placeholder="Enter Password" name="pass" required>
+            </div>
+            <div class ="modal-footer">
+                <button class="button" type="loginSubmit" id="loginSubmit">Submit</button>
+            </div>
+        </div>
+    </div>
+    <div id="signUpModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span id="signUpCloseButton" class="closeButton">&times;</span>
+                <h2 id="signUpHeader">Sign Up</h2>
+            </div>
+            <div class="modal-body">
+                <label for="user"><b>Username</b></label>
+                <input id="signUpUsernameInput" type="text" placeholder="Enter Username" name="user" required>
+                <label for="pass"><b>Password</b></label>
+                <input id="signUpPasswordInput" type="password" placeholder="Enter Password" name="pass" required>
+                <label for="email"><b>Email</b></label>
+                <input id="signUpEmailInput" type="text" placeholder="Enter Email" name="email" required>
+                <label for="name"><b>Name</b></label>
+                <input id="signUpNameInput" type="text" placeholder="Enter Name" name="name" required>
+            </div>
+            <div class ="modal-footer">
+                <button class="button" type="submit" id="signUpSubmit">Submit</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="src/main.js"></script>
+</body>
+</html>

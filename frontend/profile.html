@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Insta&copyram</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css"/>
+</head>
+<body id='body'>
+    <header class='banner'>
+        <h2 id='backButton' class='currUser'>Back</h2>
+        <h1 class='instacram'>Insta&copyram</h1>
+        <h2 class='placeholder'></h2>
+    </header>
+    <section>
+        <h2 id="profileHeader"></h2>
+    </section>
+    <section role='main' id='profileMain'>
+        <h3 id="profileUsername" class="profileInfo1"></h3>
+        <h3 id="profileName" class="profileInfo2"></h3>
+        <h3 id="profileEmail" class="profileInfo1"></h3>
+        <h3 id="profilePosts" class="profileInfo2"></h3>
+        <h3 id="profileFollowing" class="profileInfo1"></h3>
+        <h3 id="profileFollowers" class="profileInfo2"></h3>
+        <h3 id="profileTotalLikes" class="profileInfo1"></h3>
+        <h3 id="profileMostLiked" class="profileInfo2"></h3>
+        <h3 id="profileChangePwd"></h3>
+    </section>
+
+    <div id="listModal" class="modal">
+        <div class="profile-list-modal-content">
+            <div class="modal-header">
+                <span id="listCloseButton" class="closeButton">&times;</span>
+                <h2 id="listHeader"></h2>
+            </div>
+            <div class="modal-body">
+                <div id='large-feed'></div>
+                <ul id='ulist' class="ulist">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="editModal" class="modal">
+        <div class="edit-modal-content">
+            <div class="modal-header">
+                <span id="editCloseButton" class="closeButton">&times;</span>
+                <h2 id="editHeader"></h2>
+            </div>
+            <div class="modal-body">
+                <input id="editInput" type="text"/>
+            </div>
+            <div class ="modal-footer">
+                <button id='editSubmit' class='button'>Submit</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="src/profile.js"></script>        
+</body>
+<footer id='footer'>
+    <p>Insta&copyram</p>
+</footer>
+</html>

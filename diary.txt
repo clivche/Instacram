@@ -1,0 +1,5 @@
+Date	Start	Stop	Activity	Comments
+26/10	15:00	17:00	downloaded	Downloaded files, finished setup and understood spec
+27/10	12:00	01:30	coding		Finished level 1 and parts of level 2
+28/10	12:00	00:30	coding/debug	Debugged level 1 and finished level 2
+29/10	13:00	20:00	coding/debug	Debugged level 2, finished and debugged parts of level 3, cleaned up UI
